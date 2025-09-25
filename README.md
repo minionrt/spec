@@ -1,6 +1,6 @@
 # Spec
 
-autominion is an open-source project aiming to connect software engineering tools with AI agents through a common interface.
+minionrt is an open-source project aiming to connect software engineering tools with AI agents through a common interface.
 This repository specifies the proposed interface and runtime environment.
 
 > [!WARNING]

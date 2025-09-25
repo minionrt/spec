@@ -1,6 +1,6 @@
 # Overview
 
-autominion connects two kinds of software: agents and developer tools.
+minionrt connects two kinds of software: agents and developer tools.
 With "tools" or "developer tools" we refer to any interfaces or programs that human developers interact with; a tool could be an editor, a command line interface (CLI), a programming language or even a platform such as GitHub.
 With "agents" we refer to programs that automate certain software-engineering tasks, usually using large language models (LLMs) in the process.
 
@@ -20,7 +20,7 @@ Let us look at what that means in practice:
 * They access a Git proxy that restricts pushing to selected repositories and branches.
 * They access a minimal additional HTTP API to retrieve their task and interact with the user.
 
-Note that only the last bullet point is autominion-specific, the remainder of the interface is a composite of well-known standards and widely used interfaces.
+Note that only the last bullet point is minionrt-specific, the remainder of the interface is a composite of well-known standards and widely used interfaces.
 
 ## What does this mean for tools?
 

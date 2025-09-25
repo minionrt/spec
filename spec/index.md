@@ -1,8 +1,8 @@
-# The autominion Spec
+# The minionrt Spec
 
 ## Introduction
 
-This is the specification of autominion, a common interface between software engineering tools and AI agents.
+This is the specification of minionrt, a common interface between software engineering tools and AI agents.
 This includes a set of network protocols, but also specifies the runtime environment and distribution format for agentic programs.
 The overall goal of this project is to minimize the amount of reinventing the wheel by using existing protocols and standards where possible.
 For the most part, this specification can be seen as a composite of existing standards.

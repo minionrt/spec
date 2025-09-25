@@ -14,7 +14,7 @@ Tools must provide a single HTTP interface which provides the following set of r
     * `POST /agent/task/complete`
     * `POST /agent/task/fail`
 
-When, as part of the autominion interface, a tool provides a git repository URL, this URL must use the `http` or `https` scheme.
+When, as part of the minionrt interface, a tool provides a git repository URL, this URL must use the `http` or `https` scheme.
 Let `URL` stand for such a URL.
 The tool must then serve the Git v2 wire protocol via the smart HTTP transfer protocol under `URL` with the following routes:
 
@@ -119,7 +119,7 @@ enum TaskFailureReason {
 
 ## Git Protocol
 
-When, as part of the autominion interface, a tool provides a git repository URL, this URL must use the `http` or `https` scheme.
+When, as part of the minionrt interface, a tool provides a git repository URL, this URL must use the `http` or `https` scheme.
 Let `URL` stand for such a URL.
 The tool must then serve the Git v2 wire protocol via the smart HTTP transfer protocol under `URL` with the following routes:
 
